@@ -13,7 +13,7 @@ function love.load(arg)
   w, h = love.graphics.getDimensions() -- Get the screen width and height
   
   -- TODO 5: Load the font to use in the game and set it
-  
+  love.graphics.setFont( "pong.ttf", 10 )
   -- TODO 6: Initialize the position of the ball at the center of the screen
   
   -- TODO 8: Initialize the ball speed for going to the left
