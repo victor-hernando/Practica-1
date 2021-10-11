@@ -57,7 +57,7 @@ function love.draw()
   
   -- TODO 3: Draw the player and cpu paddles
   love.graphics.rectangle("fill",30,250,10,100,3,3,1)
-  love.graphics.rectangle("fill",760,250,10,100,3,3,1)
+  love.graphics.rectangle("fill",30,250,10,100,3,3,1)
   -- TODO 4: Draw the player and cpu points
   
   -- TODO 7: Comment all the code of the TODO 2 and use the ballX and ballY variables to draw the ball
